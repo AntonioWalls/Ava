@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "33122842748",
+    "project_id": "ava-app-fd461",
+    "storage_bucket": "ava-app-fd461.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33122842748:android:9395278f5bedb2f33af1f9",
+        "android_client_info": {
+          "package_name": "com.antoniowalls.ava"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2r7HBWOrjQW18b3Smp64nr5O9pN5MeX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

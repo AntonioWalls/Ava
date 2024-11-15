@@ -6,7 +6,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.antoniowalls.ava.pages.LoginScreen
-import com.antoniowalls.ava.pages.SignUpScreen
+import com.antoniowalls.ava.pages.SignupPage
 import com.antoniowalls.ava.pages.HomeScreen
 
 
@@ -19,7 +19,7 @@ fun Navigation(modifier: Modifier= Modifier, authViewModel: AuthViewModel) {
             LoginScreen(modifier, navController, authViewModel )
         }
         composable("signup"){
-            SignUpScreen(modifier, navController, authViewModel )
+            SignupPage(modifier, navController, authViewModel )
         }
         composable("home"){
             HomeScreen(modifier, navController, authViewModel )

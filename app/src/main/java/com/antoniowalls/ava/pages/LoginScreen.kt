@@ -106,7 +106,10 @@ fun LoginScreen(modifier: Modifier = Modifier, navController: NavController, aut
 
             Spacer(modifier = Modifier.height(12.dp))
             Button(
-                onClick = {},
+                onClick = {
+                    // Navegar a la pantalla de inicio de sesión
+                    navController.navigate("home")
+                },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color.White,
                     contentColor = Color.Black
@@ -117,14 +120,17 @@ fun LoginScreen(modifier: Modifier = Modifier, navController: NavController, aut
             }
 
             Spacer(modifier = Modifier.height(8.dp))
-            Text(text = "¿Olvidaste tu contraseña?", modifier = Modifier.clickable {}, color = Color.White)
+            Text(text = "¿Olvidaste tu contraseña?", modifier = Modifier.clickable { navController.navigate("forgot") }, color = Color.White)
 
             Spacer(modifier = Modifier.height(8.dp))
             Text(text = "o", color = Color.White)
 
             Spacer(modifier = Modifier.height(8.dp))
             Button(
-                onClick = {},
+                onClick = {
+                    // Navegar a la pantalla de registro de usuario
+                    navController.navigate("signup")
+                },
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color.White,
                     contentColor = Color.Black
